@@ -17,6 +17,10 @@
 ## MATLAB Codes and Descriptions
 - calibration.m : Calibrates the pixel distance in each video with real life physical units (here mm). The diameter of the relaxation chamber flange is taken as the refence for calibration
 - calibration_looper.m : Loops through all the images taken of the flange in a particular folder for calibration
+- calibration_dia.m : Measures the diameter of the jet just as it is exiting the nozzle (in Pixels)
+- calibration_dia_looper.m : Measures the diameter of the jet (in Pixels) for all the videos saved in the selected folder
+- jet_breakup.m : Measures the breakup distance of the jet. (Optional) Recreates the video with jet breakup highl;ighted with a red line
+- jet_breakup_looper.m : Measures the breakup distance of the jet of all the videos in the selected folder
 
 ## BibTex
 
@@ -35,9 +39,5 @@
   file = {C:\Users\Emazuddin Alif\Zotero\storage\DV542TNR\Alif et al. - 2022 - Liquid jet stability through elastic planar nozzle.pdf}
 }
 
-- calibration_dia.m : Measures the diameter of the jet just as it is exiting the nozzle (in Pixels)
-- calibration_dia_looper.m : Measures the diameter of the jet (in Pixels) for all the videos saved in the selected folder
-- jet_breakup.m : Measures the breakup distance of the jet. (Optional) Recreates the video with jet breakup highl;ighted with a red line
-- jet_breakup_looper.m : Measures the breakup distance of the jet of all the videos in the selected folder
 
 
